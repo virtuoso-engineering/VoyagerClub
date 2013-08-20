@@ -23,6 +23,5 @@
 	<preference name="stay-in-webview" value="true" />
 	<access origin="*" />
 
-	<gap:plugin name="ChildBrowser" />
 
 </widget>
