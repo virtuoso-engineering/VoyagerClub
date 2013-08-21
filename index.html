@@ -18,7 +18,11 @@
         	Phonegap specific listeners
         	
         	**************************************************************/
-        	document.addEventListener("deviceready", onDeviceReady, false);
+        	$(window).load(function(){
+        	    document.addEventListener("deviceready", onDeviceReady, false);
+        	});
+        	
+        	
         	function onDeviceReady() {
         	    document.addEventListener("resume", onResume, false);
         	    document.addEventListener("pause", onPause, false);
