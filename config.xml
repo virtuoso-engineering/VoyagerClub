@@ -19,7 +19,7 @@
 	<gap:splash src="splash/ios/Default.png" width="320" height="480" />
 	<gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />
 	
-	
+	<preference name="phonegap-version" value="2.9.0" />
 	<preference name="target-device" value="handset" />
 	<preference name="webviewbounce" value="false" />
 	<preference name="stay-in-webview" value="true" />
