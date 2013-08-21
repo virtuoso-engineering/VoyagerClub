@@ -7,6 +7,7 @@
 	<description>
 		Voyager Club Communication App
 	</description>
+	
 	<author href="http://www.virtuoso.com" email="rjoffray@virtuoso.com">
 		Richard Joffray
 	</author>
@@ -14,13 +15,17 @@
 	<icon src="icons/ios/icon.png" width="57" height="57" />
 	<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
 	<icon src="icons/ios/icon_at_2x.png" width="114" height="114" />
+	
 	<gap:splash src="splash/ios/Default.png" width="320" height="480" />
-
 	<gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />
+	
 	<preference name="target-device" value="handset" />
-
 	<preference name="webviewbounce" value="false" />
 	<preference name="stay-in-webview" value="true" />
+	
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/camera"/>
+	
 	<access origin="*" />
 
 
