@@ -13,8 +13,14 @@
         <script src="phonegap.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                location.href="http://vcomqa.virtuoso.com";
+                //location.href="http://vcomqa.virtuoso.com";
             });
+            document.addEventListener("deviceready", onDeviceReady, false);
+            //PhoneGap is loaded and it is now safe to make calls PhoneGap methods
+            function onDeviceReady() {
+                // Now safe to use the PhoneGap API
+                alert("hello phonegap");
+            }
         </script>
     </head>
     <body bgcolor="#ffffff">
